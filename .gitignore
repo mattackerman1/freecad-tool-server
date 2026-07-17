@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.server_pid
+*.log
+
+# Build / run artifacts
+output/
+*.step
+*.stp
+*.stl
+*.FCStd
+*.FCStd1
+
+# Elmer runtime artifacts
+ELMERSOLVER_STARTINFO
+*.sif
+*.vtu
+*.result
+
+# Local secrets — never commit
+secrets.bat
+secrets.sh
